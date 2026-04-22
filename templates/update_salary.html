@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Salary</title>
+
+    <style>
+        body {
+            background: #0b0b0f;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #14141a;
+            padding: 30px;
+            border-radius: 12px;
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: #1c1c24;
+            border: none;
+            color: white;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background: #4f46e5;
+            border: none;
+            color: white;
+        }
+
+        .back {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            color: #aaa;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="/dashboard" class="back">← Back</a>
+
+<div class="card">
+    <h2>Update Salary</h2>
+
+    <form method="POST">
+        <input type="number" name="salary" placeholder="New Salary" required>
+        <button type="submit">Update</button>
+    </form>
+</div>
+
+</body>
+</html>
